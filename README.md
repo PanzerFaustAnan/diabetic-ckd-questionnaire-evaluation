@@ -1,9 +1,5 @@
 # Questionnaire-based classification of chronic kidney disease in diabetes
 
-Code for the manuscript
-
-> Anan A, Arshi UT, Islam RN. *Classifying chronic kidney disease from non-invasive questionnaire features in adults with long-standing diabetes in Bangladesh: model development, internal validation and the limits of small-sample evidence.*
-
 One notebook, `diabetic_ckd_questionnaire_evaluation.ipynb`, produces every number, table and figure in the manuscript and its Supporting information from the public dataset.
 
 ## Data
@@ -17,8 +13,7 @@ If the download fails, download the CSV from the DOI above and set `DATA_PATH` i
 
 ## How to run
 
-**Google Colab (recommended):** open the notebook in Colab and choose *Runtime → Run all*. Nothing needs editing. On Colab the notebook installs Arial so that figure text meets the PLOS ONE figure requirements.
-
+**Google Colab (recommended):** open the notebook in Colab and choose *Runtime → Run all*. Nothing needs editing.
 **Locally (Python 3.13):**
 
 ```bash
@@ -30,7 +25,7 @@ A full run takes about 20–35 minutes on two CPU cores. Setting `FAST_MODE = Tr
 
 ## Outputs
 
-`paper_outputs/` contains the outputs of the run reported in the manuscript:
+`paper_outputs/` contains:
 
 | Path | Content |
 |---|---|
