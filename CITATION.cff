@@ -4,6 +4,7 @@ title: "Code for: Classifying chronic kidney disease from non-invasive questionn
 type: software
 license: MIT
 version: 1.0.0
+doi: "10.5281/zenodo.23758090"
 date-released: 2026-10-29
 repository-code: "https://github.com/PanzerFaustAnan/diabetic-ckd-questionnaire-evaluation"
 authors:
