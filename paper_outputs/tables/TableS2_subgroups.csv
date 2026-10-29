@@ -1,0 +1,13 @@
+Subgroup,Level,n,CKD proportion,AUC (95% CI),Observed/expected
+Gender,Female,255,0.435,0.77 (0.72-0.83),0.98
+Gender,Male,145,0.51,0.70 (0.62-0.78),1.02
+Age,lowest age tertile,135,0.489,0.82 (0.75-0.88),1.05
+Age,middle age tertile,133,0.436,0.74 (0.66-0.82),0.93
+Age,highest age tertile,132,0.462,0.68 (0.58-0.77),1.02
+BMI (kg/m2),<18.5,20,0.35,0.79 (0.55-0.97),0.97
+BMI (kg/m2),18.5-22.9,109,0.358,0.79 (0.70-0.87),0.88
+BMI (kg/m2),23-24.9,93,0.441,0.64 (0.52-0.75),0.97
+BMI (kg/m2),>=25,178,0.551,0.75 (0.69-0.82),1.07
+Diabetes duration at window start,1 year,217,0.346,0.69 (0.61-0.76),0.86
+Diabetes duration at window start,2-7 years,91,0.582,0.75 (0.64-0.85),1.18
+Diabetes duration at window start,>=8 years,92,0.62,0.79 (0.69-0.88),1.08

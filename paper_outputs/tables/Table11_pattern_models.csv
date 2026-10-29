@@ -1,0 +1,4 @@
+Model,AUC,Difference vs separate indicators (NB 95% CI)
+Three separate indicators (all 20 features),0.746,-
++ pattern indicators (7 dummies),0.744,-0.003 (-0.019 to +0.014)
++ pairwise interactions (3 terms),0.747,+0.000 (-0.006 to +0.007)

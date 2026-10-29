@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code for: Classifying chronic kidney disease from non-invasive questionnaire features in adults with long-standing diabetes in Bangladesh"
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-10-29
+repository-code: "https://github.com/PanzerFaustAnan/diabetic-ckd-questionnaire-evaluation"
+authors:
+  - family-names: Anan
+    given-names: Ahmed
+    affiliation: "Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka, Bangladesh"
+    orcid: "https://orcid.org/0009-0007-9319-1238"
+  - family-names: Arshi
+    given-names: Umma Tansina
+    affiliation: "Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka, Bangladesh"
+  - family-names: Islam
+    given-names: Rafi Nazrul
+    affiliation: "Department of Nephrology, BIRDEM General Hospital, Dhaka, Bangladesh"
+references:
+  - type: dataset
+    title: "A Dataset on Demographic and Lifestyle Factors for Prognosticating Chronic Kidney Disease Progression in Diabetic Patients"
+    doi: "10.17632/hjkzgbxgv5.2"
+    publisher:
+      name: "Mendeley Data"

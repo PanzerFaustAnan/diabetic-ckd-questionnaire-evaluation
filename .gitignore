@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+# the dataset is downloaded from Mendeley Data at run time; do not commit local copies
+DiabeticCKD_dataset.csv

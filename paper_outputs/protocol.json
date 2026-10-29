@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "primary_outcome": "Hospital-diagnosed chronic kidney disease (CKD) at any point of the 10-year observation window (patient level)",
+  "predictors": "20 questionnaire/record features taken at window start (year 1); Height, Weight, Average Weight and Average Age excluded",
+  "primary_model": "Ridge-penalised logistic regression (L2), regularisation strength tuned by 3-fold inner CV on log-loss",
+  "comparators": [
+    "Lasso logistic regression",
+    "Random forest",
+    "Histogram gradient boosting",
+    "Prevalence-only (dummy)",
+    "Age + diabetes duration only"
+  ],
+  "internal_validation": "Nested cross-validation: outer 5-fold stratified x 10 repeats, split by PATIENT; inner 3-fold grid search; scaling inside the pipeline",
+  "primary_metric": "ROC-AUC (95% CI by patient-level percentile bootstrap of pooled out-of-fold predictions)",
+  "secondary_metrics": [
+    "PR-AUC",
+    "Brier score",
+    "log-loss",
+    "calibration slope and calibration-in-the-large",
+    "net benefit (decision curve)",
+    "lift in a testing-prioritisation scenario"
+  ],
+  "signal_test": "Label-permutation test, 500 permutations",
+  "optimism_correction": "Harrell bootstrap optimism correction of the primary model, 300 resamples, full tuning strategy repeated in every resample",
+  "sample_size": "Retrospective adequacy check using Riley et al. (2020) criteria for a 20-parameter model (shrinkage 0.90, optimism delta 0.05, precision of overall risk +/-0.05)",
+  "subgroups": [
+    "Gender",
+    "Age tertiles",
+    "BMI categories (WHO Asia-Pacific cut-offs)",
+    "Diabetes duration at window start"
+  ],
+  "outliers": "Tukey 1.5xIQR flag on Age, Diabetes duration, BMI, Calorie intake; primary model re-evaluated without flagged patients",
+  "multiplicity": "Benjamini-Hochberg FDR within each family of univariable tests; model comparisons reported with Nadeau-Bengio corrected intervals",
+  "secondary_questions": {
+    "RQ4": "Does the diet / medicine / insulin management pattern add information beyond the three separate indicators?",
+    "RQ5": "Does the 10-year history add information beyond the current profile? (landmark analyses at years 3, 5, 7; paired differences)",
+    "RQ6": "How does recruitment around diagnosis shape the data? (onset-year signature; case-enriched sampling simulation)",
+    "RQ7": "How unreliable are single train/test splits and seed selection at this sample size? (empirical, simulation, learning curve, public datasets)"
+  },
+  "random_seed": 42,
+  "protocol_hash": "551c68ec7c6bd53f"
+}

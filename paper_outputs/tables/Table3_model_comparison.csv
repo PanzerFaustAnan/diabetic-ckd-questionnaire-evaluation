@@ -1,0 +1,6 @@
+Comparator,Mean AUC difference (95% CI),p,q (FDR)
+Lasso logistic regression,0.006 (-0.005-0.016),0.276,0.460
+Random forest,-0.004 (-0.043-0.035),0.831,0.836
+Gradient boosting (HGB),-0.005 (-0.050-0.040),0.836,0.836
+Age + diabetes duration only,0.159 (0.082-0.236),<0.001,<0.001
+Prevalence only (no information),0.248 (0.199-0.298),<0.001,<0.001

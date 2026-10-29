@@ -1,0 +1,1098 @@
+{
+  "n_patients": 400,
+  "n_rows": 4000,
+  "data_sha256": "9cef0eb4cd3279c36f9b4816c6a2ccfd480345ee3a57e2dc5c9f722e92793618",
+  "n_ckd": 185,
+  "prevalence": 0.4625,
+  "n_predictors": 20,
+  "table1_n_fdr_significant": 12,
+  "onset_last_row_n": 127,
+  "onset_last_row_share": 0.6864864864864865,
+  "onset_last_row_ci": [
+    0.6164169546186545,
+    0.7489689115513151
+  ],
+  "onset_last_row_binom_p": 4.312006283855159e-76,
+  "onset_rest_uniform_p": 0.0014636908082019471,
+  "onset_counts": {
+    "2": 1,
+    "3": 1,
+    "4": 5,
+    "5": 14,
+    "6": 6,
+    "7": 9,
+    "8": 13,
+    "9": 9,
+    "10": 127
+  },
+  "vif_max": 1.5637109715394832,
+  "auc_primary": 0.7508485229415462,
+  "auc_primary_ci": [
+    0.7014416702905403,
+    0.7954718782834029
+  ],
+  "auc_primary_fold_sd": 0.047444085843159824,
+  "auc__Ridge logistic regression (primary)": [
+    0.7508485229415462,
+    0.7014416702905403,
+    0.7954718782834029
+  ],
+  "auc__Lasso logistic regression": [
+    0.7476807039597737,
+    0.6988570727633949,
+    0.7946070496313336
+  ],
+  "auc__Random forest": [
+    0.7615336266499058,
+    0.7156228130482243,
+    0.8083344384946453
+  ],
+  "auc__Gradient boosting (HGB)": [
+    0.7643746071653049,
+    0.7183535854064945,
+    0.8096436536430754
+  ],
+  "auc__Age + diabetes duration only": [
+    0.5623381521055939,
+    0.5064133860886213,
+    0.6185052968177921
+  ],
+  "auc__Prevalence only (no information)": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "diff_vs__Lasso logistic regression": [
+    0.005707102451288509,
+    -0.004700552748082152,
+    0.01611475765065917,
+    0.27586110514801554
+  ],
+  "diff_vs__Random forest": [
+    -0.004173475801382778,
+    -0.043181668450513175,
+    0.034834716847747624,
+    0.8306566440107075
+  ],
+  "diff_vs__Gradient boosting (HGB)": [
+    -0.004657448145820229,
+    -0.049653134876607025,
+    0.04033823858496656,
+    0.8360843781991463
+  ],
+  "diff_vs__Age + diabetes duration only": [
+    0.15884978001257072,
+    0.0816105930700787,
+    0.23608896695506273,
+    0.0001395100553813755
+  ],
+  "diff_vs__Prevalence only (no information)": [
+    0.24828409805153995,
+    0.1987427025694846,
+    0.29782549353359533,
+    1.5898393712632242e-13
+  ],
+  "auc_apparent": 0.8001508485229416,
+  "auc_optimism": 0.042963536830123786,
+  "auc_optimism_corrected": 0.7571873116928178,
+  "C_final": 0.1,
+  "perm_obs_auc": 0.7469516027655564,
+  "perm_null_mean": 0.5016015084852294,
+  "perm_null_sd": 0.04064833002561251,
+  "perm_null_max": 0.6271527341294784,
+  "perm_p": 0.001996007984031936,
+  "riley_r2cs_cv": 0.18238657438050387,
+  "riley_n_shrinkage": 883.1435740423839,
+  "riley_n_optimism": 473.18371490040596,
+  "riley_n_precision": 381.99909999999994,
+  "riley_required": 883.1435740423839,
+  "epv": 9.25,
+  "calib_slope": 1.059384088310777,
+  "calib_slope_ci": [
+    0.7911781549589035,
+    1.3293793019686653
+  ],
+  "calib_citl": -0.002682560596353384,
+  "calib_citl_ci": [
+    -0.22746004293082606,
+    0.20910157483872163
+  ],
+  "brier_primary": 0.20221914335964952,
+  "brier_null": 0.24859375,
+  "tier_observed": {
+    "Lower": 0.208955223880597,
+    "Middle": 0.45864661654135336,
+    "Higher": 0.7218045112781954
+  },
+  "tier_cuts": [
+    0.33034753128932204,
+    0.5497668708757699
+  ],
+  "lift_table": [
+    {
+      "Tested (top % by score)": "10%",
+      "CKD cases caught (sensitivity, 95% CI)": "0.18 (0.15-0.21)",
+      "CKD proportion among tested (PPV)": "0.85",
+      "Lift vs random testing": "1.84"
+    },
+    {
+      "Tested (top % by score)": "20%",
+      "CKD cases caught (sensitivity, 95% CI)": "0.34 (0.30-0.38)",
+      "CKD proportion among tested (PPV)": "0.79",
+      "Lift vs random testing": "1.70"
+    },
+    {
+      "Tested (top % by score)": "30%",
+      "CKD cases caught (sensitivity, 95% CI)": "0.48 (0.43-0.53)",
+      "CKD proportion among tested (PPV)": "0.74",
+      "Lift vs random testing": "1.60"
+    },
+    {
+      "Tested (top % by score)": "40%",
+      "CKD cases caught (sensitivity, 95% CI)": "0.59 (0.55-0.65)",
+      "CKD proportion among tested (PPV)": "0.68",
+      "Lift vs random testing": "1.47"
+    },
+    {
+      "Tested (top % by score)": "50%",
+      "CKD cases caught (sensitivity, 95% CI)": "0.68 (0.63-0.74)",
+      "CKD proportion among tested (PPV)": "0.63",
+      "Lift vs random testing": "1.36"
+    },
+    {
+      "Tested (top % by score)": "60%",
+      "CKD cases caught (sensitivity, 95% CI)": "0.78 (0.73-0.84)",
+      "CKD proportion among tested (PPV)": "0.60",
+      "Lift vs random testing": "1.31"
+    }
+  ],
+  "dca": [
+    {
+      "Threshold": 0.3,
+      "Net benefit model": 0.275,
+      "Net benefit test-all": 0.232
+    },
+    {
+      "Threshold": 0.4,
+      "Net benefit model": 0.206,
+      "Net benefit test-all": 0.104
+    },
+    {
+      "Threshold": 0.5,
+      "Net benefit model": 0.148,
+      "Net benefit test-all": -0.075
+    },
+    {
+      "Threshold": 0.6,
+      "Net benefit model": 0.099,
+      "Net benefit test-all": -0.344
+    }
+  ],
+  "subgroup_auc_range": [
+    0.6425891181988743,
+    0.8175230566534915
+  ],
+  "features_contradicting": [
+    "Hypertension",
+    "Walks regularly (30+ min/day)"
+  ],
+  "features_supported": [
+    "Diabetes duration (years)",
+    "Body-mass index (kg/m2)",
+    "Follows suggested diet",
+    "Takes insulin",
+    "Hypertension",
+    "Walks regularly (30+ min/day)",
+    "Urinary infection / urological issue",
+    "Regular pain-killer use"
+  ],
+  "coef_table": [
+    {
+      "feature": "Gender",
+      "OR_per_SD": 1.1854,
+      "lo": 0.9589,
+      "hi": 1.4977,
+      "sign_agreement": 0.943,
+      "expected": 0,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0033,
+      "perm_importance_sd": 0.0097
+    },
+    {
+      "feature": "Job",
+      "OR_per_SD": 1.0031,
+      "lo": 0.8048,
+      "hi": 1.2377,
+      "sign_agreement": 0.5005,
+      "expected": -1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": -0.0013,
+      "perm_importance_sd": 0.0033
+    },
+    {
+      "feature": "FamHist",
+      "OR_per_SD": 1.0749,
+      "lo": 0.8806,
+      "hi": 1.3283,
+      "sign_agreement": 0.777,
+      "expected": 1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": -0.0033,
+      "perm_importance_sd": 0.0099
+    },
+    {
+      "feature": "YearsDiab",
+      "OR_per_SD": 1.3558,
+      "lo": 1.101,
+      "hi": 1.6835,
+      "sign_agreement": 0.9985,
+      "expected": 1,
+      "audit": "supported and consistent with expectation",
+      "perm_importance": 0.0203,
+      "perm_importance_sd": 0.0188
+    },
+    {
+      "feature": "Age",
+      "OR_per_SD": 1.0347,
+      "lo": 0.8367,
+      "hi": 1.3079,
+      "sign_agreement": 0.6175,
+      "expected": 1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": -0.001,
+      "perm_importance_sd": 0.0036
+    },
+    {
+      "feature": "BMI",
+      "OR_per_SD": 1.487,
+      "lo": 1.2289,
+      "hi": 1.8692,
+      "sign_agreement": 1.0,
+      "expected": 1,
+      "audit": "supported and consistent with expectation",
+      "perm_importance": 0.0301,
+      "perm_importance_sd": 0.0164
+    },
+    {
+      "feature": "Diet",
+      "OR_per_SD": 0.7073,
+      "lo": 0.5626,
+      "hi": 0.8692,
+      "sign_agreement": 0.9995,
+      "expected": -1,
+      "audit": "supported and consistent with expectation",
+      "perm_importance": 0.0253,
+      "perm_importance_sd": 0.0202
+    },
+    {
+      "feature": "Meds",
+      "OR_per_SD": 1.0458,
+      "lo": 0.8297,
+      "hi": 1.3022,
+      "sign_agreement": 0.648,
+      "expected": 0,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": -0.0021,
+      "perm_importance_sd": 0.0048
+    },
+    {
+      "feature": "Insulin",
+      "OR_per_SD": 1.3797,
+      "lo": 1.1409,
+      "hi": 1.7109,
+      "sign_agreement": 1.0,
+      "expected": 1,
+      "audit": "supported and consistent with expectation",
+      "perm_importance": 0.0265,
+      "perm_importance_sd": 0.015
+    },
+    {
+      "feature": "Hypertension",
+      "OR_per_SD": 0.727,
+      "lo": 0.5862,
+      "hi": 0.883,
+      "sign_agreement": 0.9995,
+      "expected": 1,
+      "audit": "supported but CONTRADICTS expectation",
+      "perm_importance": 0.02,
+      "perm_importance_sd": 0.0181
+    },
+    {
+      "feature": "HeartDis",
+      "OR_per_SD": 1.0994,
+      "lo": 0.8898,
+      "hi": 1.3699,
+      "sign_agreement": 0.824,
+      "expected": 1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0009,
+      "perm_importance_sd": 0.0063
+    },
+    {
+      "feature": "Sleep",
+      "OR_per_SD": 0.8287,
+      "lo": 0.6714,
+      "hi": 1.0096,
+      "sign_agreement": 0.969,
+      "expected": -1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0096,
+      "perm_importance_sd": 0.0093
+    },
+    {
+      "feature": "Water",
+      "OR_per_SD": 0.9412,
+      "lo": 0.7468,
+      "hi": 1.1768,
+      "sign_agreement": 0.7065,
+      "expected": -1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0004,
+      "perm_importance_sd": 0.004
+    },
+    {
+      "feature": "Smoke",
+      "OR_per_SD": 1.1478,
+      "lo": 0.9247,
+      "hi": 1.4327,
+      "sign_agreement": 0.893,
+      "expected": 1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0024,
+      "perm_importance_sd": 0.0083
+    },
+    {
+      "feature": "Zarda",
+      "OR_per_SD": 1.1063,
+      "lo": 0.8959,
+      "hi": 1.3757,
+      "sign_agreement": 0.853,
+      "expected": 1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0012,
+      "perm_importance_sd": 0.0084
+    },
+    {
+      "feature": "Walk",
+      "OR_per_SD": 1.4361,
+      "lo": 1.1843,
+      "hi": 1.7838,
+      "sign_agreement": 1.0,
+      "expected": -1,
+      "audit": "supported but CONTRADICTS expectation",
+      "perm_importance": 0.0248,
+      "perm_importance_sd": 0.0196
+    },
+    {
+      "feature": "Urinate",
+      "OR_per_SD": 0.8537,
+      "lo": 0.6856,
+      "hi": 1.0594,
+      "sign_agreement": 0.921,
+      "expected": -1,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0053,
+      "perm_importance_sd": 0.0094
+    },
+    {
+      "feature": "Infect",
+      "OR_per_SD": 1.4549,
+      "lo": 1.1802,
+      "hi": 1.8291,
+      "sign_agreement": 1.0,
+      "expected": 1,
+      "audit": "supported and consistent with expectation",
+      "perm_importance": 0.0399,
+      "perm_importance_sd": 0.0155
+    },
+    {
+      "feature": "Painkiller",
+      "OR_per_SD": 1.3294,
+      "lo": 1.0894,
+      "hi": 1.6602,
+      "sign_agreement": 0.9975,
+      "expected": 1,
+      "audit": "supported and consistent with expectation",
+      "perm_importance": 0.018,
+      "perm_importance_sd": 0.0144
+    },
+    {
+      "feature": "CalIntake",
+      "OR_per_SD": 1.1384,
+      "lo": 0.9467,
+      "hi": 1.3758,
+      "sign_agreement": 0.906,
+      "expected": 0,
+      "audit": "interval includes 1 (not supported)",
+      "perm_importance": 0.0017,
+      "perm_importance_sd": 0.0086
+    }
+  ],
+  "model_intercept_std": -0.14501453554378665,
+  "model_intercept_raw": -3.8671014460597943,
+  "n_p_lt_005_unpenalised": 8,
+  "n_q_lt_005_unpenalised": 8,
+  "sens_outlier_auc": 0.7688936830041124,
+  "sens_outlier_flagged": 55,
+  "sens_spline_auc": 0.7677435575109993,
+  "sens_spline_diff": [
+    -0.017448145820238833,
+    -0.0541342371959925,
+    0.019237945555514835,
+    0.34388168019562193
+  ],
+  "sens_alt_seed_auc": 0.7539157762413575,
+  "ablation": [
+    {
+      "Feature group": "Demographics and body",
+      "Features": 5,
+      "AUC group alone": 0.581,
+      "AUC without group": 0.736,
+      "AUC loss when removed (NB 95% CI)": "+0.010 (-0.011 to +0.032)"
+    },
+    {
+      "Feature group": "Diabetes history and treatment",
+      "Features": 4,
+      "AUC group alone": 0.669,
+      "AUC without group": 0.712,
+      "AUC loss when removed (NB 95% CI)": "+0.034 (+0.006 to +0.063)"
+    },
+    {
+      "Feature group": "Comorbidity, urinary and medication",
+      "Features": 5,
+      "AUC group alone": 0.68,
+      "AUC without group": 0.695,
+      "AUC loss when removed (NB 95% CI)": "+0.051 (+0.021 to +0.081)"
+    },
+    {
+      "Feature group": "Lifestyle and substances",
+      "Features": 6,
+      "AUC group alone": 0.597,
+      "AUC without group": 0.733,
+      "AUC loss when removed (NB 95% CI)": "+0.013 (-0.013 to +0.040)"
+    }
+  ],
+  "ablation_all_auc": 0.746436203645506,
+  "pattern_perm_p": 9.999000099990002e-05,
+  "pattern_table": [
+    {
+      "Pattern": "Diet + medicine",
+      "n": 173,
+      "cases": 56,
+      "prop": 0.3237,
+      "lo": 0.2585,
+      "hi": 0.3966
+    },
+    {
+      "Pattern": "None",
+      "n": 14,
+      "cases": 5,
+      "prop": 0.3571,
+      "lo": 0.1634,
+      "hi": 0.6124
+    },
+    {
+      "Pattern": "Diet only",
+      "n": 16,
+      "cases": 6,
+      "prop": 0.375,
+      "lo": 0.1848,
+      "hi": 0.6136
+    },
+    {
+      "Pattern": "Diet + insulin",
+      "n": 53,
+      "cases": 28,
+      "prop": 0.5283,
+      "lo": 0.3966,
+      "hi": 0.6562
+    },
+    {
+      "Pattern": "Diet + medicine + insulin",
+      "n": 88,
+      "cases": 48,
+      "prop": 0.5455,
+      "lo": 0.4417,
+      "hi": 0.6454
+    },
+    {
+      "Pattern": "Medicine only",
+      "n": 24,
+      "cases": 17,
+      "prop": 0.7083,
+      "lo": 0.5083,
+      "hi": 0.8509
+    },
+    {
+      "Pattern": "Medicine + insulin",
+      "n": 17,
+      "cases": 13,
+      "prop": 0.7647,
+      "lo": 0.5274,
+      "hi": 0.9044
+    },
+    {
+      "Pattern": "Insulin only",
+      "n": 15,
+      "cases": 12,
+      "prop": 0.8,
+      "lo": 0.5481,
+      "hi": 0.9295
+    }
+  ],
+  "pattern_models": [
+    [
+      "Three separate indicators (all 20 features)",
+      0.746436203645506,
+      null
+    ],
+    [
+      "+ pattern indicators (7 dummies)",
+      0.7438592080452545,
+      [
+        -0.002576995600251417,
+        -0.018998263228257393,
+        0.01384427202775456,
+        0.7538249828536738
+      ]
+    ],
+    [
+      "+ pairwise interactions (3 terms)",
+      0.7469138906348209,
+      [
+        0.00047768698931489607,
+        -0.005589335946645248,
+        0.006544709925275041,
+        0.8749306647463371
+      ]
+    ]
+  ],
+  "pattern_change_rate_ckd": 0.21348314606741572,
+  "pattern_change_rate_noCKD": 0.35348837209302325,
+  "pattern_change_p": 0.002556197100469464,
+  "movers": [
+    "Follows suggested diet",
+    "Takes oral diabetes medicine",
+    "Takes insulin",
+    "Hypertension",
+    "Heart disease",
+    "Urinary infection / urological issue",
+    "Regular pain-killer use"
+  ],
+  "n_movers": 7,
+  "n_features_changing_lt1pct": 9,
+  "landmark": {
+    "3": {
+      "n": 398.0,
+      "events": 183.0,
+      "A": 0.7559836580766813,
+      "B": 0.7623961170472799,
+      "C": 0.7386144283818702,
+      "D": 0.7689059990222781,
+      "dB": [
+        0.006412458970598509,
+        -0.018092359175087093,
+        0.030917277116284107,
+        0.594115675397529
+      ],
+      "dC": [
+        -0.017369229694811104,
+        -0.06892540436000116,
+        0.03418694497037895,
+        0.49352936484942633
+      ],
+      "dD": [
+        0.012922340945596739,
+        -0.02862459393091417,
+        0.05446927582210764,
+        0.5270002973091708
+      ]
+    },
+    "5": {
+      "n": 379.0,
+      "events": 164.0,
+      "A": 0.7517899929527837,
+      "B": 0.7698026779422129,
+      "C": 0.7586971458773786,
+      "D": 0.7715904686398871,
+      "dB": [
+        0.01801268498942918,
+        -0.017693165591669877,
+        0.053718535570528234,
+        0.30816586505362964
+      ],
+      "dC": [
+        0.006907152924594779,
+        -0.04776434713416268,
+        0.06157865298335223,
+        0.7965086683932894
+      ],
+      "dD": [
+        0.019800475687103584,
+        -0.033275567235659914,
+        0.07287651860986709,
+        0.44883927562124026
+      ]
+    },
+    "7": {
+      "n": 364.0,
+      "events": 149.0,
+      "A": 0.7461053194333067,
+      "B": 0.7795915530606788,
+      "C": 0.7558577920342155,
+      "D": 0.7914878374766107,
+      "dB": [
+        0.03348623362737237,
+        0.00015547053073463463,
+        0.06681699672401012,
+        0.04902243916758553
+      ],
+      "dC": [
+        0.009752472600908849,
+        -0.03511897237372212,
+        0.05462391757553982,
+        0.6577636704214749
+      ],
+      "dD": [
+        0.04538251804330395,
+        -0.007363355570853082,
+        0.09812839165746098,
+        0.0884524458320135
+      ]
+    }
+  },
+  "enrich_sim": [
+    {
+      "pi": 0.1,
+      "design": "Case-enriched sample (uncorrected)",
+      "AUC": 0.791,
+      "AUC_sd": 0.0068,
+      "mean_pred": 0.3658,
+      "citl": -2.0521,
+      "citl_sd": 0.0719,
+      "slope": 0.9804
+    },
+    {
+      "pi": 0.1,
+      "design": "Case-enriched sample, prior-corrected",
+      "AUC": 0.791,
+      "AUC_sd": 0.0068,
+      "mean_pred": 0.1005,
+      "citl": -0.0051,
+      "citl_sd": 0.0719,
+      "slope": 0.9804
+    },
+    {
+      "pi": 0.1,
+      "design": "Random sample of 400",
+      "AUC": 0.7721,
+      "AUC_sd": 0.0135,
+      "mean_pred": 0.0969,
+      "citl": 0.0528,
+      "citl_sd": 0.1935,
+      "slope": 0.9348
+    },
+    {
+      "pi": 0.2,
+      "design": "Case-enriched sample (uncorrected)",
+      "AUC": 0.7752,
+      "AUC_sd": 0.0066,
+      "mean_pred": 0.4007,
+      "citl": -1.2616,
+      "citl_sd": 0.0673,
+      "slope": 0.9543
+    },
+    {
+      "pi": 0.2,
+      "design": "Case-enriched sample, prior-corrected",
+      "AUC": 0.7752,
+      "AUC_sd": 0.0066,
+      "mean_pred": 0.2026,
+      "citl": -0.0256,
+      "citl_sd": 0.0673,
+      "slope": 0.9543
+    },
+    {
+      "pi": 0.2,
+      "design": "Random sample of 400",
+      "AUC": 0.7676,
+      "AUC_sd": 0.0087,
+      "mean_pred": 0.199,
+      "citl": 0.0067,
+      "citl_sd": 0.1497,
+      "slope": 0.9303
+    },
+    {
+      "pi": 0.3,
+      "design": "Case-enriched sample (uncorrected)",
+      "AUC": 0.7635,
+      "AUC_sd": 0.0072,
+      "mean_pred": 0.4259,
+      "citl": -0.7144,
+      "citl_sd": 0.0581,
+      "slope": 0.949
+    },
+    {
+      "pi": 0.3,
+      "design": "Case-enriched sample, prior-corrected",
+      "AUC": 0.7635,
+      "AUC_sd": 0.0072,
+      "mean_pred": 0.3008,
+      "citl": -0.0174,
+      "citl_sd": 0.0581,
+      "slope": 0.949
+    },
+    {
+      "pi": 0.3,
+      "design": "Random sample of 400",
+      "AUC": 0.7611,
+      "AUC_sd": 0.0092,
+      "mean_pred": 0.3003,
+      "citl": -0.0117,
+      "citl_sd": 0.125,
+      "slope": 0.9438
+    }
+  ],
+  "enrich_ceiling_auc": {
+    "0.1": 0.8095086516994507,
+    "0.2": 0.794149081232296,
+    "0.3": 0.7843983300697109
+  },
+  "single_split": {
+    "Ridge logistic regression": {
+      "mean": 0.7499203855017808,
+      "sd": 0.046862123493988,
+      "p025": 0.6566939032055311,
+      "p975": 0.8356536769327467,
+      "min": 0.606536769327467,
+      "max": 0.8724072910119421
+    },
+    "Random forest": {
+      "mean": 0.7590111041273832,
+      "sd": 0.04798369179784241,
+      "p025": 0.6536140791954745,
+      "p975": 0.8466373350094281,
+      "min": 0.606536769327467,
+      "max": 0.8724072910119423
+    },
+    "Gradient boosting (HGB)": {
+      "mean": 0.7498847684894197,
+      "sd": 0.04960715175547662,
+      "p025": 0.6464487743557511,
+      "p975": 0.8353236957888122,
+      "min": 0.5876807039597738,
+      "max": 0.8648648648648649
+    }
+  },
+  "seed_shopping": {
+    "1": 0.7485556253928347,
+    "3": 0.789363796354494,
+    "5": 0.8024008799497172,
+    "10": 0.8198915147705844
+  },
+  "sim_split": [
+    {
+      "target": 0.65,
+      "n": 100,
+      "rmse_single": 0.1233,
+      "rmse_cv": 0.0714,
+      "p_over05": 0.32,
+      "p_over10": 0.25,
+      "over_best3": 0.0783,
+      "over_best5": 0.1184,
+      "over_best10": 0.1682
+    },
+    {
+      "target": 0.65,
+      "n": 200,
+      "rmse_single": 0.0977,
+      "rmse_cv": 0.0501,
+      "p_over05": 0.28,
+      "p_over10": 0.15,
+      "over_best3": 0.0653,
+      "over_best5": 0.0916,
+      "over_best10": 0.1186
+    },
+    {
+      "target": 0.65,
+      "n": 400,
+      "rmse_single": 0.0623,
+      "rmse_cv": 0.0315,
+      "p_over05": 0.24,
+      "p_over10": 0.1,
+      "over_best3": 0.0501,
+      "over_best5": 0.0646,
+      "over_best10": 0.086
+    },
+    {
+      "target": 0.65,
+      "n": 800,
+      "rmse_single": 0.04,
+      "rmse_cv": 0.0217,
+      "p_over05": 0.07,
+      "p_over10": 0.0,
+      "over_best3": 0.0298,
+      "over_best5": 0.0425,
+      "over_best10": 0.0571
+    },
+    {
+      "target": 0.65,
+      "n": 1600,
+      "rmse_single": 0.0311,
+      "rmse_cv": 0.0141,
+      "p_over05": 0.05,
+      "p_over10": 0.01,
+      "over_best3": 0.0252,
+      "over_best5": 0.0334,
+      "over_best10": 0.0435
+    },
+    {
+      "target": 0.75,
+      "n": 100,
+      "rmse_single": 0.1303,
+      "rmse_cv": 0.0623,
+      "p_over05": 0.4,
+      "p_over10": 0.21,
+      "over_best3": 0.0993,
+      "over_best5": 0.1231,
+      "over_best10": 0.1544
+    },
+    {
+      "target": 0.75,
+      "n": 200,
+      "rmse_single": 0.0732,
+      "rmse_cv": 0.0409,
+      "p_over05": 0.2,
+      "p_over10": 0.07,
+      "over_best3": 0.0582,
+      "over_best5": 0.0751,
+      "over_best10": 0.1034
+    },
+    {
+      "target": 0.75,
+      "n": 400,
+      "rmse_single": 0.0578,
+      "rmse_cv": 0.026,
+      "p_over05": 0.27,
+      "p_over10": 0.06,
+      "over_best3": 0.0517,
+      "over_best5": 0.0672,
+      "over_best10": 0.0826
+    },
+    {
+      "target": 0.75,
+      "n": 800,
+      "rmse_single": 0.0381,
+      "rmse_cv": 0.0182,
+      "p_over05": 0.09,
+      "p_over10": 0.0,
+      "over_best3": 0.0317,
+      "over_best5": 0.0427,
+      "over_best10": 0.0544
+    },
+    {
+      "target": 0.75,
+      "n": 1600,
+      "rmse_single": 0.0284,
+      "rmse_cv": 0.0137,
+      "p_over05": 0.08,
+      "p_over10": 0.0,
+      "over_best3": 0.028,
+      "over_best5": 0.0342,
+      "over_best10": 0.0394
+    },
+    {
+      "target": 0.85,
+      "n": 100,
+      "rmse_single": 0.0964,
+      "rmse_cv": 0.0454,
+      "p_over05": 0.21,
+      "p_over10": 0.1,
+      "over_best3": 0.062,
+      "over_best5": 0.0791,
+      "over_best10": 0.1087
+    },
+    {
+      "target": 0.85,
+      "n": 200,
+      "rmse_single": 0.0733,
+      "rmse_cv": 0.0285,
+      "p_over05": 0.23,
+      "p_over10": 0.04,
+      "over_best3": 0.0506,
+      "over_best5": 0.0674,
+      "over_best10": 0.085
+    },
+    {
+      "target": 0.85,
+      "n": 400,
+      "rmse_single": 0.0393,
+      "rmse_cv": 0.0177,
+      "p_over05": 0.14,
+      "p_over10": 0.0,
+      "over_best3": 0.034,
+      "over_best5": 0.0452,
+      "over_best10": 0.0561
+    },
+    {
+      "target": 0.85,
+      "n": 800,
+      "rmse_single": 0.0302,
+      "rmse_cv": 0.0122,
+      "p_over05": 0.02,
+      "p_over10": 0.0,
+      "over_best3": 0.0213,
+      "over_best5": 0.0293,
+      "over_best10": 0.0372
+    },
+    {
+      "target": 0.85,
+      "n": 1600,
+      "rmse_single": 0.0235,
+      "rmse_cv": 0.0113,
+      "p_over05": 0.01,
+      "p_over10": 0.0,
+      "over_best3": 0.0208,
+      "over_best5": 0.027,
+      "over_best10": 0.0332
+    }
+  ],
+  "learning_curve": [
+    {
+      "n": 100,
+      "mean": 0.7291,
+      "sd": 0.0618
+    },
+    {
+      "n": 150,
+      "mean": 0.7295,
+      "sd": 0.0452
+    },
+    {
+      "n": 200,
+      "mean": 0.7245,
+      "sd": 0.0269
+    },
+    {
+      "n": 250,
+      "mean": 0.739,
+      "sd": 0.0236
+    },
+    {
+      "n": 300,
+      "mean": 0.7488,
+      "sd": 0.0199
+    },
+    {
+      "n": 350,
+      "mean": 0.747,
+      "sd": 0.0162
+    },
+    {
+      "n": 400,
+      "mean": 0.7442,
+      "sd": 0.01
+    }
+  ],
+  "public_datasets": [
+    {
+      "dataset": "Pima diabetes",
+      "openml_id": 37,
+      "n": 768,
+      "p": 8,
+      "prevalence": 0.3489583333333333,
+      "cv_auc": 0.830130444910319,
+      "split_mean": 0.8232555555555554,
+      "split_sd": 0.02948629892707814,
+      "split_range": [
+        0.7470370370370369,
+        0.9083333333333334
+      ]
+    },
+    {
+      "dataset": "Breast cancer Wisconsin",
+      "openml_id": 15,
+      "n": 699,
+      "p": 9,
+      "prevalence": 0.3447782546494993,
+      "cv_auc": 0.9943875993620892,
+      "split_mean": 0.9948324275362317,
+      "split_sd": 0.0031856801642432954,
+      "split_range": [
+        0.9846014492753624,
+        1.0
+      ]
+    },
+    {
+      "dataset": "Haberman survival",
+      "openml_id": 43,
+      "n": 306,
+      "p": 13,
+      "prevalence": 0.2647058823529412,
+      "cv_auc": 0.6512990196078431,
+      "split_mean": 0.6503532608695651,
+      "split_sd": 0.07378923854433479,
+      "split_range": [
+        0.46195652173913043,
+        0.8342391304347827
+      ]
+    },
+    {
+      "dataset": "Blood transfusion",
+      "openml_id": 1464,
+      "n": 748,
+      "p": 4,
+      "prevalence": 0.23796791443850268,
+      "cv_auc": 0.7518042792165599,
+      "split_mean": 0.7470151072124759,
+      "split_sd": 0.041181656667322215,
+      "split_range": [
+        0.6509502923976608,
+        0.8362573099415205
+      ]
+    },
+    {
+      "dataset": "Indian liver patients",
+      "openml_id": 1480,
+      "n": 583,
+      "p": 10,
+      "prevalence": 0.2864493996569468,
+      "cv_auc": 0.7510665529446536,
+      "split_mean": 0.7503401842664776,
+      "split_sd": 0.0407396655672483,
+      "split_range": [
+        0.6247342310418144,
+        0.8458540042523033
+      ]
+    },
+    {
+      "dataset": "Hepatitis",
+      "openml_id": 55,
+      "n": 155,
+      "p": 19,
+      "prevalence": 0.2064516129032258,
+      "cv_auc": 0.8562857142857142,
+      "split_mean": 0.853,
+      "split_sd": 0.08667884529815922,
+      "split_range": [
+        0.6599999999999999,
+        1.0
+      ]
+    },
+    {
+      "dataset": "Heart statlog",
+      "openml_id": 53,
+      "n": 270,
+      "p": 13,
+      "prevalence": 0.4444444444444444,
+      "cv_auc": 0.9024074074074075,
+      "split_mean": 0.9008749999999999,
+      "split_sd": 0.04066037396289499,
+      "split_range": [
+        0.7861111111111111,
+        0.9916666666666667
+      ]
+    }
+  ],
+  "public_skipped": []
+}

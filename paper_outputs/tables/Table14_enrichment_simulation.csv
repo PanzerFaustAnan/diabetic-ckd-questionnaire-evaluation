@@ -1,0 +1,10 @@
+True prevalence,Training design,AUC (mean ± SD),Mean predicted risk,Calibration-in-the-large (mean ± SD),Calibration slope
+10%,Case-enriched sample (uncorrected),0.791 ± 0.007,0.366,-2.05 ± 0.07,0.98
+10%,"Case-enriched sample, prior-corrected",0.791 ± 0.007,0.101,-0.01 ± 0.07,0.98
+10%,Random sample of 400,0.772 ± 0.014,0.097,+0.05 ± 0.19,0.93
+20%,Case-enriched sample (uncorrected),0.775 ± 0.007,0.401,-1.26 ± 0.07,0.95
+20%,"Case-enriched sample, prior-corrected",0.775 ± 0.007,0.203,-0.03 ± 0.07,0.95
+20%,Random sample of 400,0.768 ± 0.009,0.199,+0.01 ± 0.15,0.93
+30%,Case-enriched sample (uncorrected),0.764 ± 0.007,0.426,-0.71 ± 0.06,0.95
+30%,"Case-enriched sample, prior-corrected",0.764 ± 0.007,0.301,-0.02 ± 0.06,0.95
+30%,Random sample of 400,0.761 ± 0.009,0.3,-0.01 ± 0.13,0.94

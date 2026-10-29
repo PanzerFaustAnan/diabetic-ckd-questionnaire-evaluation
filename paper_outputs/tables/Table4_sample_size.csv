@@ -1,0 +1,6 @@
+Criterion,Minimum n,Available / required
+1. Shrinkage >= 0.90,883,0.45
+2. Optimism in Nagelkerke R2 <= 0.05,473,0.85
+3. Overall risk within +/-0.05,382,1.05
+Required (maximum),883,0.45
+Available,400,1.00

@@ -1,0 +1,21 @@
+,VIF
+Gender (male),1.56
+Smoking,1.29
+Age (years),1.28
+Urinary infection / urological issue,1.25
+Urinates properly,1.23
+Takes insulin,1.22
+Takes oral diabetes medicine,1.21
+Diabetes duration (years),1.2
+Sufficient sleep (7-9 h),1.19
+Zarda / betel leaf use,1.16
+Job exertion level,1.15
+Heart disease,1.15
+Follows suggested diet,1.14
+Body-mass index (kg/m2),1.12
+Regular pain-killer use,1.11
+Sufficient water intake (>2 L/day),1.08
+Walks regularly (30+ min/day),1.08
+Family history of diabetes,1.07
+Hypertension,1.07
+Calorie intake (kcal/day),1.06

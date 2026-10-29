@@ -1,0 +1,21 @@
+Feature,OR per SD (95% bootstrap CI),Sign agreement,Permutation importance (AUC drop),Clinical-plausibility audit
+Follows suggested diet,0.71 (0.56-0.87),100%,0.025,supported and consistent with expectation
+Hypertension,0.73 (0.59-0.88),100%,0.02,supported but CONTRADICTS expectation
+Sufficient sleep (7-9 h),0.83 (0.67-1.01),97%,0.01,interval includes 1 (not supported)
+Urinates properly,0.85 (0.69-1.06),92%,0.005,interval includes 1 (not supported)
+Sufficient water intake (>2 L/day),0.94 (0.75-1.18),71%,0.0,interval includes 1 (not supported)
+Job exertion level,1.00 (0.80-1.24),50%,-0.001,interval includes 1 (not supported)
+Age (years),1.03 (0.84-1.31),62%,-0.001,interval includes 1 (not supported)
+Takes oral diabetes medicine,1.05 (0.83-1.30),65%,-0.002,interval includes 1 (not supported)
+Family history of diabetes,1.07 (0.88-1.33),78%,-0.003,interval includes 1 (not supported)
+Heart disease,1.10 (0.89-1.37),82%,0.001,interval includes 1 (not supported)
+Zarda / betel leaf use,1.11 (0.90-1.38),85%,0.001,interval includes 1 (not supported)
+Calorie intake (kcal/day),1.14 (0.95-1.38),91%,0.002,interval includes 1 (not supported)
+Smoking,1.15 (0.92-1.43),89%,0.002,interval includes 1 (not supported)
+Gender (male),1.19 (0.96-1.50),94%,0.003,interval includes 1 (not supported)
+Regular pain-killer use,1.33 (1.09-1.66),100%,0.018,supported and consistent with expectation
+Diabetes duration (years),1.36 (1.10-1.68),100%,0.02,supported and consistent with expectation
+Takes insulin,1.38 (1.14-1.71),100%,0.027,supported and consistent with expectation
+Walks regularly (30+ min/day),1.44 (1.18-1.78),100%,0.025,supported but CONTRADICTS expectation
+Urinary infection / urological issue,1.45 (1.18-1.83),100%,0.04,supported and consistent with expectation
+Body-mass index (kg/m2),1.49 (1.23-1.87),100%,0.03,supported and consistent with expectation

@@ -1,0 +1,4 @@
+Model,Mean test AUC,SD,Central 95% of splits,Range,Splits >= mean + 0.05
+Ridge logistic regression,0.750,0.047,0.657-0.836,0.607-0.872,15.3%
+Random forest,0.759,0.048,0.654-0.847,0.607-0.872,13.3%
+Gradient boosting (HGB),0.750,0.050,0.646-0.835,0.588-0.865,16.0%

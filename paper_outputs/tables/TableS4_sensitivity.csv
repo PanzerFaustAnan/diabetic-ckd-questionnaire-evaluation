@@ -1,0 +1,5 @@
+Analysis,n,AUC (pooled OOF)
+Primary analysis (all 400 patients),400,0.751
+Outlier-flagged patients removed (n = 55 flagged),345,0.769
+Spline terms for continuous features,400,0.768
+Alternative random seed for nested CV,400,0.754

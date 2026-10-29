@@ -1,0 +1,22 @@
+Predictor,Coding,Mean (centring),SD (scaling),"Coefficient, standardised predictor","Coefficient, original units"
+Intercept,-,,,-0.14501,-3.8671
+Gender (male),"1 = male, 0 = female",0.3625,0.48072,0.17004,0.35373
+Job exertion level,"1 normal, 2 intermediate, 3 heavy",1.28,0.59716,0.00314,0.00526
+Family history of diabetes,parents had diabetes (1/0),0.4225,0.49396,0.07224,0.14625
+Diabetes duration (years),years since diagnosis,4.7675,5.81192,0.30438,0.05237
+Age (years),years,46.3575,10.56928,0.03413,0.00323
+Body-mass index (kg/m2),mean over the window,24.59065,3.77338,0.39678,0.10515
+Follows suggested diet,1/0,0.825,0.37997,-0.34631,-0.91141
+Takes oral diabetes medicine,1/0,0.755,0.43009,0.04475,0.10405
+Takes insulin,1/0,0.4325,0.49542,0.32183,0.64961
+Hypertension,persistently >=140/90 mmHg and treated (1/0),0.26,0.43863,-0.31885,-0.72692
+Heart disease,diagnosed (1/0),0.22,0.41425,0.09473,0.22867
+Sufficient sleep (7-9 h),"1 sufficient, 0 insufficient",0.5875,0.49228,-0.18786,-0.38161
+Sufficient water intake (>2 L/day),"1 sufficient, 0 insufficient",0.91,0.28618,-0.06064,-0.21188
+Smoking,>=5 cigarettes/day for 4-5 years (1/0),0.1375,0.34437,0.13788,0.40037
+Zarda / betel leaf use,1/0,0.2425,0.4286,0.10106,0.2358
+Walks regularly (30+ min/day),1/0,0.64,0.48,0.36191,0.75398
+Urinates properly,without discomfort (1/0),0.8575,0.34956,-0.15815,-0.45241
+Urinary infection / urological issue,history (1/0),0.2325,0.42243,0.37497,0.88766
+Regular pain-killer use,1/0,0.295,0.45604,0.28475,0.62439
+Calorie intake (kcal/day),typical daily intake,1453.7,211.52614,0.12963,0.00061

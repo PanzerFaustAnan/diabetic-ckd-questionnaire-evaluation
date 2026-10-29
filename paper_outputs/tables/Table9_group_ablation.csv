@@ -1,0 +1,5 @@
+Feature group,Features,AUC group alone,AUC without group,AUC loss when removed (NB 95% CI)
+Demographics and body,5,0.581,0.736,+0.010 (-0.011 to +0.032)
+Diabetes history and treatment,4,0.669,0.712,+0.034 (+0.006 to +0.063)
+"Comorbidity, urinary and medication",5,0.68,0.695,+0.051 (+0.021 to +0.081)
+Lifestyle and substances,6,0.597,0.733,+0.013 (-0.013 to +0.040)
